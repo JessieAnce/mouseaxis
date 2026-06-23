@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse Axis | Creative Design Studio</title>
+    
+    <!-- Meta tags for SEO -->
+    <meta name="description" content="Mouse Axis is a renowned design studio specializing in brand identity, product packaging design, print media, and custom branding solutions. Creating innovative designs since 2003.">
+    <meta name="keywords" content="mouse axis, design studio, logo design, packaging design, print design, madurai design, branding india">
+    <meta name="author" content="Mouse Axis">
+    
+    <!-- Open Graph for Social Networks -->
+    <meta property="og:title" content="Mouse Axis | Creative Design Studio">
+    <meta property="og:description" content="Elevate your brand presence with outstanding logo designs, print assets, and product packaging. Renowned creative solutions since 2003.">
+    <meta property="og:image" content="https://mouseaxis.com/wp-content/uploads/2026/06/cropped-cropped-Mouseaxis_Logo_PNG-e1780474280994.png">
+    <meta property="og:url" content="https://mouseaxis.com/">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://mouseaxis.com/wp-content/uploads/2022/10/Mouseaxis_Icon_PNG-150x150.png" sizes="32x32">
+    <link rel="apple-touch-icon" href="https://mouseaxis.com/wp-content/uploads/2022/10/Mouseaxis_Icon_PNG.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Mulish:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic|Cormorant+Garamond:regular,300,400,500,600,700,300italic,400italic,500italic,600italic,700italic|EB+Garamond:regular,500,600,700,800,italic,500italic,600italic,700italic,800italic&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="main-header">
+        <div class="header-container">
+            <a href="#our-work" class="logo-link" id="site-logo">
+                <img src="https://mouseaxis.com/wp-content/uploads/2026/06/cropped-cropped-Mouseaxis_Logo_PNG-e1780474280994.png" alt="Mouse Axis Logo" class="logo-img">
+            </a>
+            
+            <!-- Navigation Links -->
+            <nav class="nav-menu" id="nav-navigation-menu">
+                <ul class="nav-list">
+                    <li><a href="#our-work" class="nav-item active" data-target="our-work">OUR WORK</a></li>
+                    <li><a href="#who-we-are" class="nav-item" data-target="who-we-are">WHO WE ARE</a></li>
+                    <li><a href="#get-service" class="nav-item" data-target="get-service">GET SERVICE</a></li>
+                    <li><a href="#logo-questionnaire" class="nav-item" data-target="logo-questionnaire">LOGO QUESTIONNAIRE</a></li>
+                </ul>
+            </nav>
+
+            <!-- Actions Wrapper: Theme Toggle, Socials, and Hamburger Menu -->
+            <div class="header-actions">
+                <!-- Appearance Mode Toggle Button -->
+                <button id="theme-toggle-btn" class="theme-toggle" aria-label="Toggle Theme">
+                    <i class="fa-solid fa-sun"></i>
+                </button>
+                
+                <!-- Social Networks Links -->
+                <div class="header-socials">
+                    <a href="https://www.facebook.com/share/199ruNbVBk/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/mouseaxis/?hl=en" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+                
+                <!-- Mobile Menu Toggle Button -->
+                <button class="nav-toggle" id="menu-toggle-btn" aria-label="Toggle Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Parallax Hero Banner Section -->
+    <section class="hero-banner" id="hero-banner-section">
+        <div class="hero-shapes">
+            <div class="shape shape-1" data-speed="1.5"></div>
+            <div class="shape shape-2" data-speed="-2"></div>
+            <div class="shape shape-3" data-speed="2.5"></div>
+            <div class="shape shape-4" data-speed="-1"></div>
+        </div>
+        <div class="hero-bg-overlay"></div>
+        <div class="hero-content glassmorphic-hero">
+            <h1 class="hero-title">CREATIVE <span id="rotator-text" class="text-glow">BRAND</span> SOLUTIONS</h1>
+            <p class="hero-subtitle">Elevating visual identities and product packages for outstanding market success since 2003.</p>
+            <a href="#get-service" class="hero-btn button-primary" id="start-project-btn">START MY PROJECT</a>
+        </div>
+        <div class="scroll-down-indicator" id="scroll-indicator">
+            <span>Explore Works</span>
+            <i class="fa-solid fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Main Content Sections -->
+    <main class="content-wrapper">
+        
+        <!-- Section: OUR WORK (Portfolio) -->
+        <section id="our-work" class="content-section active">
+            <div class="section-header">
+                <span class="section-tagline">Portfolio</span>
+                <h2 class="section-title">OUR RECENT WORK</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <!-- Portfolio Filter Bar -->
+            <div class="portfolio-filter-bar">
+                <button class="filter-btn active" id="filter-all" data-filter="all">ALL WORK</button>
+                <button class="filter-btn" id="filter-brand" data-filter="brand">BRAND DESIGN</button>
+                <button class="filter-btn" id="filter-product" data-filter="product">PRODUCT PACKAGING</button>
+                <button class="filter-btn" id="filter-print" data-filter="print">PRINT MEDIA</button>
+                <button class="filter-btn" id="filter-saved" data-filter="saved"><i class="fa-solid fa-thumbtack"></i> SAVED</button>
+            </div>
+
+            <!-- Portfolio Grid -->
+            <div class="portfolio-grid" id="portfolio-items-grid">
+                <!-- Portfolios will be generated dynamically by app.js -->
+                <div class="grid-loading">
+                    <div class="spinner"></div>
+                    <p>Loading projects...</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: WHO WE ARE (About) -->
+        <section id="who-we-are" class="content-section">
+            <div class="section-header">
+                <span class="section-tagline">Who We Are</span>
+                <h2 class="section-title">ABOUT MOUSE AXIS</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-card glassmorphic">
+                    <div class="card-icon"><i class="fa-solid fa-gem"></i></div>
+                    <h3>Company Overview</h3>
+                    <p>Mouse Axis is a renowned design company that has been at the forefront of creative innovation since its inception in 2003. With a proven track record of delivering exceptional design solutions, we have established ourselves as a trusted partner for businesses seeking to elevate their brand presence.</p>
+                </div>
+
+                <div class="about-card glassmorphic">
+                    <div class="card-icon"><i class="fa-solid fa-clock-rotate-left"></i></div>
+                    <h3>Our Story</h3>
+                    <p>Founded in 2003, Mouse Axis began as a small design studio with a big vision: to revolutionize the design landscape. Over the years, we have grown into a full-fledged design company, expanding our services to cater to the diverse needs of our clients. Our commitment to creativity, quality, and customer satisfaction has enabled us to build long-lasting relationships.</p>
+                </div>
+            </div>
+
+            <div class="services-wrapper">
+                <h3 class="services-title">Services We Specialize In</h3>
+                <div class="services-grid">
+                    <div class="service-item glassmorphic">
+                        <i class="fa-solid fa-pen-nib"></i>
+                        <span>Logo Design</span>
+                    </div>
+                    <div class="service-item glassmorphic">
+                        <i class="fa-solid fa-box-open"></i>
+                        <span>Product Packaging</span>
+                    </div>
+                    <div class="service-item glassmorphic">
+                        <i class="fa-solid fa-scroll"></i>
+                        <span>Brochure & Pamphlet Design</span>
+                    </div>
+                    <div class="service-item glassmorphic">
+                        <i class="fa-solid fa-camera"></i>
+                        <span>Product Photography</span>
+                    </div>
+                    <div class="service-item glassmorphic">
+                        <i class="fa-solid fa-print"></i>
+                        <span>Print Materials</span>
+                    </div>
+                    <div class="service-item glassmorphic">
+                        <i class="fa-solid fa-bullhorn"></i>
+                        <span>Branding Solutions</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: GET SERVICE -->
+        <section id="get-service" class="content-section">
+            <div class="section-header">
+                <span class="section-tagline">Enquiry</span>
+                <h2 class="section-title">GET SERVICE</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="form-container glassmorphic">
+                <div class="form-instructions">
+                    <p>Please fill out the enquiry form below to start your project. We will get back to you as soon as possible.</p>
+                </div>
+                <div class="iframe-wrapper">
+                    <div class="iframe-loader">
+                        <div class="spinner"></div>
+                        <p>Connecting to secure Google Form...</p>
+                    </div>
+                    <iframe 
+                        src="https://docs.google.com/forms/d/e/1FAIpQLSevvpLRRV5X2JFaN3iKVKYyUBzA6OJ95ENA4Xb3XHW_PO9Y7A/viewform?embedded=true" 
+                        width="100%" 
+                        height="1450" 
+                        frameborder="0" 
+                        marginheight="0" 
+                        marginwidth="0"
+                        title="Get Service Google Form"
+                        onload="this.previousElementSibling.style.display='none'">Loading…</iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: LOGO QUESTIONNAIRE -->
+        <section id="logo-questionnaire" class="content-section">
+            <div class="section-header">
+                <span class="section-tagline">Questionnaire</span>
+                <h2 class="section-title">LOGO QUESTIONNAIRE</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="form-container glassmorphic">
+                <div class="form-instructions">
+                    <p>Tell us about your brand's unique identity. Please fill out the form below to guide our logo creation process.</p>
+                </div>
+                <div class="iframe-wrapper">
+                    <div class="iframe-loader">
+                        <div class="spinner"></div>
+                        <p>Connecting to secure Google Form...</p>
+                    </div>
+                    <iframe 
+                        src="https://docs.google.com/forms/d/e/1FAIpQLScp3ItR06u3gNzl2JM1GhUSs8AhQSz1IF9veugBow8T2IAW1g/viewform?embedded=true" 
+                        width="100%" 
+                        height="850" 
+                        frameborder="0" 
+                        marginheight="0" 
+                        marginwidth="0"
+                        title="Logo Questionnaire Google Form"
+                        onload="this.previousElementSibling.style.display='none'">Loading…</iframe>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <img src="https://mouseaxis.com/wp-content/uploads/2026/06/cropped-cropped-Mouseaxis_Logo_PNG-e1780474280994.png" alt="Mouse Axis Logo" class="footer-logo">
+                <p>Renowned design company specializing in outstanding brand identity, package designs, print works, and photography. Creating visual impacts since 2003.</p>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Quick Navigation</h4>
+                <ul>
+                    <li><a href="#our-work">Our Portfolio</a></li>
+                    <li><a href="#who-we-are">Who We Are</a></li>
+                    <li><a href="#get-service">Get Service</a></li>
+                    <li><a href="#logo-questionnaire">Logo Questionnaire</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Contact Info</h4>
+                <p><i class="fa-solid fa-phone"></i> +91 452 2521788</p>
+                <p><i class="fa-solid fa-mobile-screen-button"></i> +91 88383 57514</p>
+                <p><i class="fa-solid fa-envelope"></i> mouseaxis@gmail.com</p>
+                <p><i class="fa-solid fa-location-dot"></i> Madurai, Tamil Nadu, India</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-bottom-container">
+                <span class="copyright">© Copyright 2026. All Rights Reserved. Mouse Axis.</span>
+                <span class="credits">Recreated with Premium SPA Experience. Replaced Blossom PinIt Theme.</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Portfolio Lightbox (Modal Popup) -->
+    <div id="portfolio-lightbox" class="lightbox-modal" aria-hidden="true" role="dialog">
+        <!-- Close Button -->
+        <button class="lightbox-close" id="lightbox-close-btn" aria-label="Close Lightbox">&times;</button>
+        
+        <!-- Left & Right Slider Navigation (Scroll System) -->
+        <button class="lightbox-nav lightbox-prev" id="lightbox-prev-btn" aria-label="Previous Project">
+            <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <button class="lightbox-nav lightbox-next" id="lightbox-next-btn" aria-label="Next Project">
+            <i class="fa-solid fa-chevron-right"></i>
+        </button>
+        
+        <div class="lightbox-content pinterest-lightbox">
+            <div class="lightbox-split">
+                <!-- Left Side: Image -->
+                <div class="lightbox-left">
+                    <div class="lightbox-image-container">
+                        <img src="" alt="" id="lightbox-img">
+                    </div>
+                </div>
+                
+                <!-- Right Side: Interaction Feed -->
+                <div class="lightbox-right">
+                    <div class="lightbox-header-actions">
+                        <div class="lightbox-creator-profile">
+                            <img src="https://mouseaxis.com/wp-content/uploads/2022/10/Mouseaxis_Icon_PNG-150x150.png" alt="Mouse Axis Logo" class="lightbox-creator-avatar">
+                            <div class="lightbox-creator-text">
+                                <span class="lightbox-creator-name">Mouse Axis</span>
+                                <i class="fa-solid fa-circle-check verified-badge"></i>
+                            </div>
+                        </div>
+                        <button class="lightbox-save-btn" id="lightbox-save-action-btn">
+                            <i class="fa-solid fa-thumbtack"></i> <span>Save</span>
+                        </button>
+                    </div>
+                    
+                    <div class="lightbox-scroll-area">
+                        <span id="lightbox-category" class="lightbox-tag">CATEGORY</span>
+                        <h3 id="lightbox-title" class="lightbox-caption">Project Title</h3>
+                        <p id="lightbox-date" class="lightbox-date"><i class="fa-regular fa-calendar-days"></i> Project Date</p>
+                        
+                        <div class="lightbox-social-stats">
+                            <button class="lightbox-stat-btn" id="lightbox-like-btn">
+                                <i class="fa-regular fa-heart"></i> <span id="lightbox-like-count">0</span>
+                            </button>
+                            <button class="lightbox-stat-btn" id="lightbox-share-btn" title="Copy link to clipboard">
+                                <i class="fa-solid fa-share-nodes"></i> Share
+                            </button>
+                        </div>
+                        
+                        <!-- Interactive Comment System -->
+                        <div class="lightbox-comments-section">
+                            <h4>Comments (<span id="lightbox-comment-count">0</span>)</h4>
+                            <div class="comments-list" id="lightbox-comments-list">
+                                <!-- Pre-populated and user comments will show here -->
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Comment Input box (Sticky at bottom of sidebar) -->
+                    <div class="lightbox-comment-input-area">
+                        <img src="https://api.dicebear.com/7.x/bottts/svg?seed=user" alt="User Avatar" class="user-comment-avatar">
+                        <form id="lightbox-comment-form" class="comment-form">
+                            <input type="text" id="lightbox-comment-input" placeholder="Add a comment..." required autocomplete="off">
+                            <button type="submit" class="comment-submit-btn" aria-label="Post Comment">
+                                <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Bottom Section: More Like This -->
+            <div class="lightbox-more-like-this">
+                <h4>More like this</h4>
+                <div class="more-like-this-grid" id="lightbox-more-grid">
+                    <!-- Related portfolios will be rendered dynamically -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll Back To Top Button -->
+    <button id="back-to-top-btn" class="back-to-top" aria-label="Back to Top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Toast notification element for user feedback -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <!-- Custom Script JS -->
+    <script src="app.js"></script>
+</body>
+</html>
